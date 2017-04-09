@@ -6,17 +6,12 @@ namespace SpectoCMD
 {
     public class SpectoCMDCore : MonoBehaviour
     {
+        public string oauth;
+        public string nickName;
+        public string channelName;
+        private string server = "irc.twitch.tv";
+        private int port = 6667;
 
-        // Use this for initialization
-        void Start()
-        {
 
-        }
-
-        // Update is called once per frame
-        void Update()
-        {
-
-        }
     }
 }
